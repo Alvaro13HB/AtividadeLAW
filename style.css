@@ -62,8 +62,15 @@ main {
 }
 
 .principal h2 {
+    font-size: larger;
     font-weight: 100;
     padding: 0.5rem 1rem;
+}
+
+.principal ol, ul {
+    font-size: larger;
+    font-weight: 100;
+    padding: 0.5rem 2rem;
 }
 
 fieldset{
