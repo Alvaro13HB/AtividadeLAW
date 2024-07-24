@@ -110,3 +110,60 @@ div {
     width: 3rem;
     border-radius: 50%;
 }
+
+
+.toldo {
+    display: block;
+}
+
+.toldo div, p, a{
+    padding: 0 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.toldo div p{
+    font-weight: 800;
+}
+
+.toldo div li{
+    margin: 1rem;
+}
+
+.toldo p{
+    padding: 1rem;
+}
+
+.toldo div a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso h1 {
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+
+table, td, tr, th {
+    width: max-content;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 1rem;
+}
+
+td {
+    text-align: center;
+}
+
+.materia {
+    text-align: left;
+}
